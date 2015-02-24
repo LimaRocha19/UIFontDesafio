@@ -9,6 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *nome;
+@property (weak, nonatomic) IBOutlet UITextField *nomeTextField;
+- (IBAction)helvetica:(id)sender;
+- (IBAction)zapfino:(id)sender;
+- (IBAction)papyrus:(id)sender;
+- (IBAction)courier:(id)sender;
+- (IBAction)alterar:(id)sender;
+
+
+
 
 
 @end

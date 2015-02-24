@@ -113,6 +113,9 @@
                                 <variation key="heightClass=compact-widthClass=regular" ambiguous="YES">
                                     <rect key="frame" x="97" y="275" width="325" height="36"/>
                                 </variation>
+                                <connections>
+                                    <action selector="helvetica:" destination="BYZ-38-t0r" eventType="touchUpInside" id="esY-R0-fOh"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="nome" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jem-Kr-XGc">
                                 <rect key="frame" x="35" y="28" width="275" height="30"/>
@@ -166,6 +169,9 @@
                                         <include reference="hzn-7i-zcD"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="alterar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bwd-J6-wMs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kq4-iX-Ab5">
                                 <rect key="frame" x="68" y="332" width="100" height="40.5"/>
@@ -195,6 +201,9 @@
                                         <include reference="z93-rc-Gov"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="zapfino:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Dr-7f-MCN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mvI-bo-cv3">
                                 <rect key="frame" x="68" y="404" width="52" height="30"/>
@@ -221,6 +230,9 @@
                                         <exclude reference="3DT-Ce-Fog"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="papyrus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ahI-uH-qXa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3n-lP-c8a">
                                 <rect key="frame" x="68" y="463" width="109" height="30"/>
@@ -244,6 +256,9 @@
                                         <exclude reference="C5u-l2-eBX"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="courier:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eln-Vu-t37"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brincando com Fontes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdW-T4-vRd">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -292,6 +307,9 @@
                                         <include reference="cSb-HU-wjH"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="papyrus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Gc-0W-sj0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4b-Yg-TES">
                                 <rect key="frame" x="68" y="463" width="109" height="30"/>
@@ -315,6 +333,9 @@
                                         <include reference="Vce-MU-f7j"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="courier:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O8n-SX-xFH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -653,6 +674,11 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="nome" destination="rzA-OR-plT" id="YmQ-G4-JFd"/>
+                        <outlet property="nomeTextField" destination="Jem-Kr-XGc" id="Gbx-cz-8Vt"/>
+                        <outletCollection property="nome" destination="Jem-Kr-XGc" id="ZDe-dc-0Su"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
